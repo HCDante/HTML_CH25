@@ -1,0 +1,37 @@
+/*Estilo para centrar los elementos.*/
+.text-center {
+    text-align: center;
+  }
+  
+  /*Estilo para la barra de navegación.*/
+  .navbar {
+    background-color: #ff01017c; /*.Color de fondo.*/
+    color: #ffffff; /* Color del texto */
+  }
+  
+  /*Paleta de colores.*/
+  .color1 {
+    color: #000000;
+  }
+  
+  .color2 {
+    color: #161824;
+  }
+  
+  .color3 {
+    color: #2e3148;
+  }
+  
+  .color4 {
+    color: #4b4d6f;
+  }
+  
+  .color5 {
+    color: #6c6b9b;
+  }
+  
+  /*Estilo para redondear las esquinas.*/
+  .rounded {
+    border-radius: 5px;
+  }
+  

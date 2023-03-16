@@ -5,8 +5,8 @@
     overflow: hidden; /*Oculta el contenido que sobrepase los límites del div.*/
     display: inline-block; /*Hace que el div se muestre en línea con otros elementos.*/
     position: relative; /*Permite posicionar el contenido dentro del div utilizando coordenadas.*/
-    top: 50px;
-    left: 100px;
+    top: 300px;
+    left: 300px;
   }
   
   /*Estilos para el segundo div con clase "box". */
@@ -16,7 +16,7 @@
     overflow: scroll; /*Agrega barras de desplazamiento al contenido que sobrepase los límites del div.*/
     display: block; /*Hace que el div se muestre en un bloque independiente.*/
     position: absolute; /*Permite posicionar el contenido dentro del div con respecto a su elemento padre.*/
-    top: 100px;
+    top: 300px;
     left: 200px;
   }
   
@@ -27,11 +27,11 @@
     overflow: auto; /*Agrega barras de desplazamiento solo si es necesario.*/
     display: inline-block;
     position: absolute;
-    top: 150px;
+    top: 300px;
     left: 300px;
   }
   
-  /*Estilos para el cuarto div con clase 'box'.*/
+  /*Estilos para el cuarto div con clase "box".*/
   #four {
     background-color: orange;
     color: white;

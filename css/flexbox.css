@@ -1,0 +1,35 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /*-wrap: wrap;*/
+    /*justify-content: space-around;*/
+    align-content: centers;
+
+}
+#one{ background-color: crimson;
+width: 200px;
+height: 200px;
+flex-grow: 8;}
+
+#two{background-color: darkorchid;
+width: 200px;
+height: 200px;
+flex-shrink: 0;}
+
+#three{background-color: yellow;
+width: 200px;
+height: 200px;
+flex-basis: 20%;}
+
+/*#four{background-color: green;
+width: 200px;
+height: 200;}
+
+#five{background-color: orange;
+width: 200px;
+height: 200;}
+
+#six{background-color: aqua;
+width: 200px;
+height: 200;}*/

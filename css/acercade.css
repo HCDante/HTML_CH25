@@ -1,0 +1,39 @@
+*{ font-family: 'Franklin Gothic Medium';}/*El asterisco es un selector universal*/
+h2{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aqua;} /*Solo selecciona la etiqueta especificada*/
+.card{background-color: violet;}
+section{
+    width: 70%;
+    background-color: cornflowerblue;
+    float: left;
+    margin: 10px;
+}
+article{
+    margin: 0.5em 3em 0em 0em;
+    padding: 0.5em 2em;
+    background-color: crimson;
+    border: 10px solid black; 
+} /*Top, right, bottom, left.
+/*"Margin: 5 em 3 em", el primer término afectará arriba y abajo y el segundo izquierdsa y derecha.*/
+aside{
+    width: 25%;
+    float: left;
+    background-color: darkgoldenrod;
+}
+footer{
+    background-color: blueviolet;
+    width: auto;
+    height: 60px;
+    text-align: center;
+    padding: 45px;
+    margin: 10px;
+    clear:  both;
+}
+
+/*Medidas en CSS:
+-Medidas absolutas: Pixeles son medidad que no van a cambiar en el proyecto "px".
+-Medidas relativas: "em" se utiliza para hacer referencia a la fuente del navegador,
+mientras que rem se adapta a la fuente raíz del HTML.
+-Medidas flexibles: "vw" se calculan respecto al ancho del viewport, por ejemplo
+"100 vw" es igual al 100% de la ventana; "vh" se calcula respecto a la altura del viewport; 
+"vmin/vmax" se calculan respecto al ancho del viewport.*/
+
